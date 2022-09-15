@@ -4,6 +4,9 @@
     margin: 0 auto;
     padding: 10px 20px;
     background-color: #a6e1ec;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
 }
 
 #wrapper p em {
@@ -15,7 +18,10 @@
     padding: 10px;
     margin-bottom: 5px;
     font-size: 16px;
-    list-style-type: none
+    list-style-type: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
 }
 
 #wrapper ul > li > img{
