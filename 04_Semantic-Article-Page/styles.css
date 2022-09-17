@@ -1,0 +1,21 @@
+body {
+    background-color: #e4e978;
+}
+
+article.first-list {
+    padding: 5px 15px;
+    margin: 15px 10px;
+    border: 1px solid #b2ad7d;
+    width: 640px;
+    background-color: #f2f4c0;
+}
+
+section article.next-list {
+    padding: 5px 15px;
+    margin: 15px 10px;
+    width: 640px;
+    border: 1px solid #b2ad7d;
+    background-color: #f2f4c0;
+    font-style: italic;
+    color: #5c6e91;
+}
