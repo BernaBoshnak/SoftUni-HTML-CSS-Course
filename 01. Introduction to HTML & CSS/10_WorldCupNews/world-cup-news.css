@@ -1,6 +1,7 @@
 #wrapper {
     width: 700px;
-    height: 730px;;
+    height: 730px;
+    ;
     margin: 0 auto;
     padding: 10px 20px;
     background-color: #a6e1ec;
@@ -13,7 +14,7 @@
     font-style: italic;
 }
 
-#wrapper ul > li{
+#wrapper ul>li {
     width: 595px;
     padding: 10px;
     margin-bottom: 5px;
@@ -24,12 +25,12 @@
     border-color: #000000;
 }
 
-#wrapper ul > li > img{
+#wrapper ul>li>img {
     width: 200px;
     margin-right: 10px;
     vertical-align: middle;
 }
 
-#wrapper ul > li > span.text {
+#wrapper ul>li>span.text {
     color: #3f51b5;
 }
