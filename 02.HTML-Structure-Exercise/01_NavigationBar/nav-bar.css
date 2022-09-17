@@ -12,7 +12,7 @@ nav #list {
     list-style: none;
 }
 
-nav #list li{
+nav #list li {
     font-size: 24px;
     line-height: 40px;
     height: 40px;
@@ -21,7 +21,7 @@ nav #list li{
     color: #ffffff;
 }
 
-nav #list li a{
+nav #list li a {
     text-decoration: none;
     color: #ffffff;
 }
