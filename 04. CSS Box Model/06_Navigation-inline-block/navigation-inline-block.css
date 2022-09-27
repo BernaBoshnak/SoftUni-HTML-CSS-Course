@@ -1,0 +1,38 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.2rem;
+}
+
+body {
+    max-width: 90rem;
+    margin: auto;
+}
+
+h1 {
+    line-height: 1.2em;
+    padding-right: 40px;
+}
+
+.header {
+    border-bottom: 2px solid black;
+}
+
+body>header * {
+    display: inline-block;
+}
+
+.links {
+    list-style-type: none;
+    color: rgb(6, 142, 6);
+}
+
+.link-item {
+    font-size: 14px;
+    margin-right: 1.5em;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-weight: 300;
+}
