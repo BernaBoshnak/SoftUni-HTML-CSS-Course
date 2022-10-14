@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    margin: 40px;
+    background-color: lightgrey;
+}
+
+.gallery .links-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.gallery .links-list li {
+    display: flex;
+    box-sizing: border-box;
+    padding: 40px 0;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 30%;
+    border: 10px solid black;
+    background-color: #fff;
+}
