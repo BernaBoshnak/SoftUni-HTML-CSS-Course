@@ -1,0 +1,102 @@
+body {
+    margin: 60px;
+    background-color: rgb(238, 238, 238);
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    gap: 10px 60px;
+}
+
+h1,
+h3 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+.nav-header {
+    flex-basis: 100%;
+}
+
+.nav-header .divider {
+    height: 2px;
+    background-color: #000;
+}
+
+.nav-header p {
+    margin: 10px 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.sidebar {
+    flex-basis: 20%;
+}
+
+.sidebar .links li {
+    list-style-type: square;
+}
+
+.sidebar .links li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+main {
+    flex: 1 0 60%;
+}
+
+main,
+.article {
+    overflow: hidden;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.article img {
+    display: block;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #000;
+    box-shadow: 0 0 35px 8px rgb(0, 0, 0, 0.25);
+}
+
+.article img.pull-right {
+    margin-left: 15px;
+}
+
+.article img.pull-left {
+    margin-right: 15px;
+}
+
+.article img.pull-left,
+.article img.pull-right {
+    margin-bottom: 15px;
+}
+
+blockquote.pull-right {
+    font-family: Georgia, serif;
+    width: 450px;
+    height: 130px;
+    margin-left: 40px;
+    margin-top: 0;
+    margin-right: 0;
+    border-left: 4px solid rgb(221, 221, 221);
+    font-style: italic;
+    color: gray;
+}
+
+blockquote.pull-right p {
+    padding-left: 20px;
+}
