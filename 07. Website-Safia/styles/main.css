@@ -1,4 +1,6 @@
 :root {
+    --clr-white: #fff;
+
     --clr-primary: #001A57;
     --clr-primary-800: #00308F;
     --clr-primary-600: #0059F7;
@@ -18,6 +20,9 @@
     --clr-neutral-500: #7E8BB6;
     --clr-neutral-300: #CCD2E9;
     --clr-neutral-200: #F4F7FF;
+
+    --page-px: 190px;
+    --page-px-mini: 80px;
 }
 
 body {
