@@ -27,7 +27,12 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: lightgray;
+    background-color: var(--clr-neutral);
+}
+
+section {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 h1 {
