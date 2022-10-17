@@ -1,0 +1,22 @@
+#how-it-work .how__row {
+    display: flex;
+    align-items: center;
+    gap: 110px;
+    width: calc(100% - 2 * var(--page-px));
+    margin: 0 auto;
+}
+
+#how-it-work .how__row:not(:last-child) {
+    margin-bottom: 96px;
+}
+
+#how-it-work .row__text .text__title {
+    margin-bottom: 20px;
+    color: var(--clr-white);
+}
+
+#how-it-work .row__text .text__desc {
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--clr-neutral-500);
+}
