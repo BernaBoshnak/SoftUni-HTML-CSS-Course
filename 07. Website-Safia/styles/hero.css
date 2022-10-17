@@ -1,9 +1,14 @@
+#hero {
+    border-bottom: 1px solid var(--clr-neutral-800);
+}
+
 #hero .info {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: calc(100% - 2 * var(--page-px));
     margin: 0 auto;
+    margin-top: 64px;
     margin-bottom: 72px;
     color: var(--clr-white);
 }

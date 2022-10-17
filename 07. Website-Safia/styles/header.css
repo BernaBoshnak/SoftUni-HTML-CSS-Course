@@ -1,22 +1,24 @@
 .header {
-    width: calc(100% - 2 * var(--page-px));
-    margin: 0 auto;
+    position: absolute;
+    width: 1440px;
     height: 104px;
+    left: calc(50% - 1440px/2);
+    top: 0px;
+    border-bottom: 1px solid var(--clr-neutral-800);
 }
 
 .header .header__logo {
     position: absolute;
     width: 104px;
     height: 32px;
-    left: 20%;
+    left: 80px;
     top: 36px;
-
 }
 
 .header .btn--login {
     position: absolute;
     width: 94px;
     height: 56px;
-    left: 80%;
+    left: calc(50% - 94px/2 + 596px);
     top: 24px;
 }
