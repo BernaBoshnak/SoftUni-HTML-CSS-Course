@@ -2,7 +2,6 @@
     width: calc(100% - 2 * var(--page-px));
     margin: 0 auto;
     height: 104px;
-    border-bottom: 2px solid var(--clr-neutral-800);
 }
 
 .header .header__logo {
