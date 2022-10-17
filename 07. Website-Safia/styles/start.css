@@ -1,0 +1,23 @@
+#start {
+    border-radius: 24px;
+    width: 840px;
+    height: 328px;
+    text-align: center;
+    margin-top: 96px;
+    margin-bottom: 148px;
+    background-color: var(--clr-primary-600);
+}
+
+#start .section__title {
+    margin-bottom: 52px;
+}
+
+#start .btn {
+    color: var(--clr-white);
+    background-color: var(--clr-primary-300);
+}
+
+#start .btn:hover {
+    color: var(--clr-primary-300);
+    background-color: var(--clr-white);
+}
