@@ -30,10 +30,7 @@ body {
     background-color: var(--clr-neutral);
 }
 
-section {
-    max-width: 1440px;
-    margin: 0 auto;
-}
+/* Typography */
 
 h1 {
     font-size: 56px;
@@ -58,4 +55,11 @@ h4 {
 h5 {
     font-size: 18px;
     line-height: 28px;
+}
+
+/* Section setup */
+
+.section {
+    max-width: 1440px;
+    margin: 0 auto;
 }
