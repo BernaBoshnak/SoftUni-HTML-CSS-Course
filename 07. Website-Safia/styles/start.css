@@ -27,3 +27,39 @@
     color: var(--clr-primary-300);
     background-color: var(--clr-white);
 }
+
+/* Second start section */
+
+#start-second {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 1060px;
+    height: 176px;
+}
+
+#start-second .info {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+}
+
+#start-second .info__sub-title {
+    margin-bottom: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: var(--clr-neutral-500);
+}
+
+#start-second .info__title {
+    color: var(--clr-white);
+}
+
+#start-second .btn {
+    margin-right: 56px;
+    align-self: center;
+    margin-left: auto;
+}
