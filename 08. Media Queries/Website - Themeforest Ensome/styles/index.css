@@ -1,5 +1,5 @@
 @import url(reset.css);
-@import url(reset.css);
+@import url(clients.css);
 @import url(variables.css);
 
 body {
@@ -15,4 +15,40 @@ body {
     max-width: 1110px;
     margin-left: auto;
     margin-right: auto;
+    padding: 48px 24px;
+}
+
+.section__title,
+.section__desc {
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.section__title {
+    margin-bottom: 16px;
+    font-size: 38px;
+    color: var(--clr-black);
+}
+
+.section__desc {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: var(--clr-grey);
+}
+
+@media screen and (min-width: 1024px) {
+    .section--narrow {
+        padding: 100px 50px;
+    }
+    
+    .section__title {
+        margin-bottom: 30px;
+        font-size: 46px;
+    }
+    
+    .section__desc {
+        font-size: 20px;
+    }
 }
