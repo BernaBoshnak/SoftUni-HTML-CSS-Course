@@ -1,23 +1,29 @@
-#start {
+#start,
+#start-second {
     border-radius: 24px;
+    background-color: var(--clr-primary-600);
+}
+
+#start {
     width: 840px;
     height: 328px;
-    text-align: center;
     margin-top: 96px;
     margin-bottom: 148px;
-    background-color: var(--clr-primary-600);
+    text-align: center;
 }
 
 #start .section__title {
     margin-bottom: 52px;
 }
 
-#start .btn {
+#start .btn,
+#start-second .btn {
     color: var(--clr-white);
     background-color: var(--clr-primary-300);
 }
 
-#start .btn:hover {
+#start .btn:hover,
+#start-second .btn:hover {
     color: var(--clr-primary-300);
     background-color: var(--clr-white);
 }
