@@ -175,6 +175,34 @@ body {
     color: var(--clr-grey-text);
 }
 
+/* Subscribe */
+
+#subscribe {
+    text-align: center;
+    background-color: var(--clr-white);
+}
+
+#subscribe .title{
+    font-size: 32px;
+    font-weight: 300;
+}
+
+#subscribe .desc{
+    font-size: 18px;
+    margin-bottom: 2rem;
+    color: var(--clr-grey-text);
+}
+
+#subscribe .btn{
+    padding: 1rem 2.5rem;
+    font-size: 19px;
+    letter-spacing: 2px;
+    border: none;
+    color: var(--clr-white);
+    background-color: var(--clr-green);
+    cursor: pointer;
+}
+
 /* Advantages */
 
 #advantages {
