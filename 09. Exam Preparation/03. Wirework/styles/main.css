@@ -15,7 +15,7 @@
     --header-height: 66px;
 }
 
-body{
+body {
     font-family: Helvetica, sans-serif;
     color: var(--clr-grey-dark);
 }
@@ -39,20 +39,20 @@ body{
     gap: 16px;
 }
 
-.header .logo .main{
+.header .logo .main {
     font-size: 46px;
     font-weight: bold;
     line-height: 1;
 }
 
-.header .logo .divider{
+.header .logo .divider {
     display: inline-block;
     width: 2px;
     height: 50px;
     background-color: var(--clr-grey-text);
 }
 
-.header .logo .sub{
+.header .logo .sub {
     font-size: 20px;
     line-height: 1;
     letter-spacing: 1px;
@@ -64,7 +64,7 @@ body{
     gap: 2px;
 }
 
-.header .nav .nav-item{
+.header .nav .nav-item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,15 +73,51 @@ body{
     background-color: var(--clr-grey);
 }
 
-.header .nav .nav-item.active{
+.header .nav .nav-item.active {
     color: var(--clr-white);
     background-color: var(--clr-primary);
 }
 
-.header .nav .nav-item .nav-link{
+.header .nav .nav-item .nav-link {
     text-decoration: none;
     line-height: 1;
     letter-spacing: 1.1px;
     color: inherit;
 }
 
+/* Hero */
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    height: calc(100hv - var(--header-height));
+    overflow: hidden;
+}
+
+#hero .img-container {
+    overflow: hidden;
+}
+
+#hero .img-container .hero-img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+#hero .content {
+    padding: 4rem;
+    background-color: var(--clr-primary);
+}
+
+#hero .content .text{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--clr-grey);
+}
+
+#hero .content .text a{
+    color: inherit;
+}
