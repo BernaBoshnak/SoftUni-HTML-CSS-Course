@@ -145,14 +145,14 @@ body {
     background-color: var(--clr-grey-bg);
 }
 
-#features .section-grid-item .icon-container{
+#features .section-grid-item .icon-container {
     display: inline-block;
     padding: 1.2rem;
     margin-bottom: 0.5rem;
     background-color: var(--clr-primary);
 }
 
-#features .section-grid-item .icon-container i{
+#features .section-grid-item .icon-container i {
     font-size: 38px;
 }
 
@@ -172,5 +172,22 @@ body {
 #features .section-grid-item .desc {
     font-size: 15px;
     letter-spacing: 1px;
+    color: var(--clr-grey-text);
+}
+
+/* Advantages */
+
+#advantages {
+    color: var(--clr-white);
+    background-color: var(--clr-grey-bg);
+}
+
+#advantages .section-grid-item .title {
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+#advantages .section-grid-item .desc {
+    font-size: 16px;
     color: var(--clr-grey-text);
 }
