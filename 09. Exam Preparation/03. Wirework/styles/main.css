@@ -182,18 +182,18 @@ body {
     background-color: var(--clr-white);
 }
 
-#subscribe .title{
+#subscribe .title {
     font-size: 32px;
     font-weight: 300;
 }
 
-#subscribe .desc{
+#subscribe .desc {
     font-size: 18px;
     margin-bottom: 2rem;
     color: var(--clr-grey-text);
 }
 
-#subscribe .btn{
+#subscribe .btn {
     padding: 1rem 2.5rem;
     font-size: 19px;
     letter-spacing: 2px;
@@ -218,4 +218,35 @@ body {
 #advantages .section-grid-item .desc {
     font-size: 16px;
     color: var(--clr-grey-text);
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--clr-green);
+}
+
+.footer .resources {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .resources .resource {
+    padding: 0 1rem;
+    letter-spacing: 2px;
+    color: var(--clr-green-text);
+}
+
+.footer .resources .divider {
+    height: 20px;
+    width: 2px;
+    background-color: var(--clr-green-link);
+}
+
+.footer .resources .resource a {
+    font-size: 17px;
+    text-decoration: none;
+    color: var(--clr-green-link);
 }
