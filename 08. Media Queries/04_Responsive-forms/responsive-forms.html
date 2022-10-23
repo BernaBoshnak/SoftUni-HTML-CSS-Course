@@ -5,30 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Forms</title>
-
     <link rel="stylesheet" href="responsive-forms.css" />
   </head>
   <body>
-    <form action="#">
+    <form class="form">
       <fieldset>
         <legend>Login</legend>
-        <section class="section">
+        <div class="form-row">
           <label for="username">Username</label>
           <p class="form-input">
             <span class="icon"><i class="fa-solid fa-user"></i></span>
             <input type="text" id="username" name="username" />
           </p>
-        </section>
+        </div>
 
-        <section class="section">
+        <div class="form-row">
           <label for="password">Password</label>
           <p class="form-input">
             <span class="icon"><i class="fa-solid fa-key"></i></span>
             <input type="password" id="password" name="password" />
           </p>
-        </section>
+        </div>
 
-        <button class="btn">Login</button>
+        <button class="btn" type="submit">Login</button>
       </fieldset>
     </form>
   </body>
