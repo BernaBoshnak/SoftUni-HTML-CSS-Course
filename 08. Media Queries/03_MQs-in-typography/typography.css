@@ -1,0 +1,259 @@
+html {
+    font-size: 24px;
+}
+
+body {
+    width: 80%;
+    margin: 40px auto;
+    background-color: rgb(238, 238, 238);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: Georgia, serif;
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+.nav-header {
+    width: 100%;
+}
+
+.nav-header .title {
+    font-size: 42px;
+}
+
+.nav-header .divider {
+    height: 2px;
+    background-color: gray;
+}
+
+.nav-header p {
+    margin: 10px 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+}
+
+.div.pull-right {
+    flex-direction: row-reverse;
+    gap: 30px;
+}
+
+.content {
+    width: 100%;
+}
+
+.content .text:first-of-type {
+    margin: 0;
+}
+
+.div .img-container .img {
+    width: 70%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #000;
+    box-shadow: 0 0 35px 8px rgb(0, 0, 0, 0.25);
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.container .pull-right {
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, serif;
+    font-size: 19px;
+    width: 50%;
+    margin: 0;
+    padding: 0 30px;
+    border-left: 4px solid rgb(221, 221, 221);
+    font-style: italic;
+    color: gray;
+}
+
+.container .pull-right p {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+
+.container .pull-right cite {
+    margin-left: auto;
+}
+
+.container .desc {
+    font-size: 22px;
+    width: 100%;
+    margin: 0;
+}
+
+@media screen and (max-width:1800px) {
+    html {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    html {
+        font-size: 21px;
+    }
+
+    .nav-header .title {
+        font-size: 38px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    html {
+        font-size: 18px;
+    }
+
+    .nav-header .title {
+        font-size: 26px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    html {
+        font-size: 16px;
+    }
+
+    .nav-header .title {
+        font-size: 24px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-size: 18px;
+    }
+
+    .div.pull-right,
+    .div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div .img-container .img {
+        width: 55%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container .pull-right p,
+    .container .pull-right cite {
+        font-size: 16px;
+    }
+
+    .container .desc {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    html {
+        font-size: 14px;
+    }
+
+    .nav-header .title {
+        font-size: 22px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-size: 16px;
+    }
+
+    .div.pull-right,
+    .div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div .img-container .img {
+        width: 40%;
+    }
+
+    .container .pull-right p,
+    .container .pull-right cite {
+        font-size: 14px;
+    }
+
+    .container .desc {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:390px) {
+    html {
+        font-size: 12px;
+    }
+
+    .nav-header .title {
+        font-size: 20px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-size: 14px;
+    }
+
+    .div.pull-right,
+    .div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div .img-container .img {
+        width: 45%;
+    }
+
+    .container .pull-right p,
+    .container .pull-right cite {
+        font-size: 12px;
+    }
+
+    .container .desc {
+        font-size: 12px;
+    }
+}
