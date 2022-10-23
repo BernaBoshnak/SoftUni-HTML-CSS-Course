@@ -1,0 +1,68 @@
+@import url(reset.css);
+
+:root {
+    --clr-purple: #800080;
+    --clr-black-text: #1a0000;
+    --clr-white: #fff;
+    --clr-grey: #ececec;
+    --clr-grey-dark: #3f3f3f;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    color: var(--clr-grey-dark);
+}
+
+/* Navigation */
+
+.header {
+    position: sticky;
+    display: flex;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+}
+
+.header .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.header .logo .title {
+    font-size: 38px;
+    line-height: 1;
+    color: var(--clr-purple);
+}
+
+.header .logo .sub {
+    font-size: 11px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: var(--clr-grey-text);
+}
+
+.header .nav {
+    display: flex;
+    gap: 2px;
+}
+
+.header .nav .nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem 1.2rem;
+    background-color: var(--clr-grey);
+}
+
+.header .nav .nav-item .nav-link {
+    text-decoration: none;
+    line-height: 1;
+    letter-spacing: 1.1px;
+    color: inherit;
+}
