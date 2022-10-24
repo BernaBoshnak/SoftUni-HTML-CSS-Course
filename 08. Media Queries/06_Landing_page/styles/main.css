@@ -124,3 +124,66 @@ body {
     margin-bottom: auto;
     color: black;
 }
+
+/* Team */
+
+.title {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 500;
+    color: var(--clr-black-text);
+}
+
+.divider {
+    height: 2px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    background-color: var(--clr-black-text);
+}
+
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-group .card {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 33.333333%;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.card-group .card .img-card{
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    background-image: url(https://via.placeholder.com/130X130);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.card-group .card .card-body {
+    text-align: center;
+    width: 350px;
+}
+
+.card-group .card .card-body .card-name {
+    font-size: 14px;
+}
+
+.card-group .card .card-body .job-title {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: var(--clr-grey-text);
+}
+
+.card-group .card .card-body .card-text {
+    display: inline;
+    font-size: 17px;
+    color: var(--clr-grey-text);
+}
