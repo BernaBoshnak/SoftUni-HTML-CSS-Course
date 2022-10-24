@@ -7,11 +7,12 @@
     --clr-white: #fff;
     --clr-grey: #ececec;
     --clr-grey-dark: #3f3f3f;
+    --clr-grey-text: #5d554e;
 }
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: var(--clr-grey-dark);
+    color: var(--clr-black-text);
 }
 
 /* Navigation */
@@ -23,7 +24,7 @@ body {
     left: 0;
     z-index: 100;
     justify-content: space-between;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 6rem;
 }
 
 .header .logo {
@@ -71,7 +72,7 @@ body {
 /* Sections */
 
 .section--full {
-    padding: 4rem 6rem;
+    padding: 4rem 6rem 0;
 }
 
 /* Buttons */
@@ -95,16 +96,20 @@ body {
 
 #website {
     display: flex;
-    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 4rem 12rem 0;
 }
 
 #website .content {
-    width: 75%;
+    flex: 1;
 }
 
 #website .content .title {
     font-size: 28px;
     margin-bottom: 10px;
+    color: var(--clr-black-text);
 }
 
 #website .content .desc {
