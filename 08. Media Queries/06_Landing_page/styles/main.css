@@ -26,6 +26,7 @@ body {
     z-index: 100;
     justify-content: space-between;
     padding: 0.5rem 6rem;
+    background-color: var(--clr-white);
 }
 
 .header .logo {
@@ -109,6 +110,7 @@ body {
 
 #website .content .title {
     font-size: 28px;
+    text-align: start;
     margin-bottom: 10px;
     color: var(--clr-black-text);
 }
@@ -126,7 +128,7 @@ body {
     color: black;
 }
 
-/* Team */
+/* Team and Testimonials */
 
 .title {
     text-align: center;
@@ -169,6 +171,9 @@ body {
 }
 
 .card-group .card .card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     text-align: center;
     width: 350px;
 }
@@ -179,7 +184,6 @@ body {
 
 .card-group .card .card-body .job-title {
     font-size: 14px;
-    margin-bottom: 15px;
     color: var(--clr-grey-text);
 }
 
