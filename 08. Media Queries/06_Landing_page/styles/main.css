@@ -188,3 +188,40 @@ body {
     font-size: 17px;
     color: var(--clr-grey-text);
 }
+
+/* Sign-up */
+
+#sign-up {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    background-color: var(--clr-purple-bg);
+}
+
+#sign-up .title{
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: var(--clr-white);
+    margin-bottom: 10px;
+}
+
+#sign-up .form .form-input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#sign-up .form .form-input input{
+    width: 15%;
+    height: 30px;
+    border-radius: 3px;
+}
+
+#sign-up .form .form-input .btn{
+    height: 30px;
+}
+
+#sign-up .form .form-input .btn:hover{
+    background-color: darkseagreen;
+}
