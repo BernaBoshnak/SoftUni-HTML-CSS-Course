@@ -3,6 +3,7 @@
 
 :root {
     --clr-purple: #800080;
+    --clr-purple-bg: #68347b;
     --clr-black-text: #1a0000;
     --clr-white: #fff;
     --clr-grey: #ececec;
@@ -72,7 +73,7 @@ body {
 /* Sections */
 
 .section--full {
-    padding: 4rem 6rem 0;
+    padding: 4rem 6rem;
 }
 
 /* Buttons */
@@ -136,7 +137,7 @@ body {
 
 .divider {
     height: 2px;
-    width: 100px;
+    width: 80px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2rem;
