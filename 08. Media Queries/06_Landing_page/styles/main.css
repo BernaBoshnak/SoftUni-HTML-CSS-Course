@@ -50,16 +50,17 @@ body {
     color: var(--clr-grey-text);
 }
 
+.header .nav-container {
+    margin-left: auto;
+    position: relative;
+}
+
 .header .nav {
     display: flex;
     gap: 2px;
 }
 
 .header .nav .nav-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     padding: 1rem 1.2rem;
     background-color: var(--clr-grey);
 }
@@ -71,10 +72,23 @@ body {
     color: inherit;
 }
 
+.header .nav-btn {
+    display: none;
+    border: none;
+    text-decoration: none;
+    color: var(--clr-black-text);
+    background: none;
+    cursor: pointer;
+}
+
+.header .nav-btn i {
+    padding-right: 3px;
+}
+
 /* Sections */
 
 .section--full,
-.footer--full {
+.footer {
     padding: 4rem 6rem;
 }
 
@@ -153,15 +167,18 @@ body {
     justify-content: space-between;
 }
 
-.card-group .card {
-    display: flex;
+.col {
     flex-direction: column;
     flex: 0 0 33.333333%;
+}
+
+.card-group .card {
+    display: flex;
     align-items: center;
     margin-bottom: 30px;
 }
 
-.card-group .card .img-card {
+.card-group .img-card {
     border-radius: 50%;
     width: 130px;
     height: 130px;
@@ -171,7 +188,7 @@ body {
     margin-bottom: 20px;
 }
 
-.card-group .card .card-body {
+.card-group .card-body {
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -179,16 +196,16 @@ body {
     width: 350px;
 }
 
-.card-group .card .card-body .card-name {
+.card-group .card-name {
     font-size: 14px;
 }
 
-.card-group .card .card-body .job-title {
+.card-group .job-title {
     font-size: 14px;
     color: var(--clr-grey-text);
 }
 
-.card-group .card .card-body .card-text {
+.card-group .card-text {
     display: inline;
     font-size: 17px;
     color: var(--clr-grey-text);
@@ -210,7 +227,6 @@ body {
 }
 
 #sign-up .form .form-input {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -218,8 +234,7 @@ body {
 }
 
 #sign-up .form .form-input input {
-    width: 15%;
-    height: 30px;
+    width: 30%;
     border-radius: 3px;
 }
 
@@ -233,9 +248,8 @@ body {
 
 /* Footer */
 
-.footer--full {
+.footer {
     display: flex;
-    justify-content: space-between;
     gap: 30px;
     background-color: var(--clr-grey);
     box-shadow: 0px 2px 18px 7px rgba(159, 159, 159, 0.71);
@@ -250,12 +264,6 @@ body {
 .content .text {
     display: inline;
     font-size: 18px;
-}
-
-.footer--full .content,
-.footer--full .sitemap,
-.footer--full .contacts {
-    flex: 0 0 33.333333%;
 }
 
 .sitemap .desc,
@@ -283,4 +291,179 @@ body {
 
 .contacts .info i {
     padding-right: 5px;
+}
+
+@media screen and (max-width:1400px) {
+    .header {
+        padding: 0.5rem 2rem;
+    }
+
+    #website {
+        padding: 3rem 6rem 0;
+    }
+
+    .section--full,
+    .footer {
+        padding: 3rem 2rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header {
+        padding: 0.5rem 1rem;
+    }
+
+    .header .logo .title {
+        font-size: 28px;
+    }
+
+    .header .logo .sub {
+        font-size: 7px;
+    }
+
+    .header .nav-btn {
+        display: block;
+    }
+
+    .header .nav {
+        display: none;
+    }
+
+    .header .nav .nav-item {
+        padding: 0.5rem 0.5rem;
+    }
+
+    .nav-btn:hover+.nav {
+        position: absolute;
+        display: block;
+        top: 100%;
+        right: 0;
+    }
+
+    #website {
+        padding: 2rem 2rem 0;
+    }
+
+    #website .content .title {
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    #website .content .desc {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    #website .icon {
+        flex: 1;
+        font-size: 7rem;
+        margin-top: 0;
+    }
+
+    .btn {
+        padding: 5px 8px;
+        font-size: 12px;
+    }
+
+    .section--full,
+    .footer {
+        padding: 2rem 1rem;
+    }
+
+    .col {
+        flex: 0 0 50%;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .header {
+        padding: 0.5rem 1rem;
+    }
+
+    .header .logo .title {
+        font-size: 22px;
+    }
+
+    .header .logo .sub {
+        font-size: 6px;
+    }
+
+    .header .nav .nav-item {
+        padding: 0.5rem 0.5rem;
+    }
+
+    .nav-btn {
+        font-size: 13px;
+    }
+
+    #website {
+        padding: 2rem 1rem 0;
+    }
+
+    #website .content .title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    #website .content .desc {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    #website .icon {
+        flex: 1;
+        font-size: 6rem;
+        margin-top: auto;
+    }
+
+    .btn {
+        padding: 4px 8px;
+        font-size: 8px;
+    }
+
+    .section--full,
+    .footer {
+        padding: 2rem 1rem;
+    }
+
+    .section--full .title,
+    .footer .title {
+        font-size: 22px;
+    }
+
+    .card-group .card-body {
+        width: 150px;
+    }
+
+    .card-group .card-text {
+        font-size: 14px;
+    }
+
+    #sign-up .title {
+        font-size: 18px;
+    }
+
+    #sign-up .form .form-input input {
+        width: 50%;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .content .desc {
+        font-size: 22px;
+    }
+
+    .content .text {
+        display: inline-block;
+        font-size: 12px;
+    }
 }
