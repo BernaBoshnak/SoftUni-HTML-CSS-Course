@@ -57,7 +57,7 @@ h5 {
 /* Component - section */
 
 section {
-    border-bottom: 6px solid var(--clr-grey);
+    border-bottom: 10px solid var(--clr-grey);
 }
 
 /* Component - input */
@@ -169,4 +169,30 @@ section {
 
 #hero .input-wrapper {
     margin-bottom: 16px;
+}
+
+/* Section type feature */
+
+.feature-section {
+    padding: var(--p-y) var(--p-x);
+    text-align: center;
+}
+
+.title--section {
+    font-size: 38px;
+    text-align: center;
+}
+
+.feature-section .content {
+    margin-bottom: 20px;
+}
+
+.feature-section .desc {
+    margin-bottom: 16px;
+}
+
+.feature-section .feature-img {
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
 }
