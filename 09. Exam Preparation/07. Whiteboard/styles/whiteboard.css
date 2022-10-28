@@ -23,3 +23,101 @@ h4,
 h5 {
     font-weight: 700;
 }
+
+/* Header */
+
+.header {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    padding: 0.5rem 10rem;
+    background-color: rgb(104 101 101 / 79%);
+}
+
+.link {
+    color: var(--clr-white);
+    text-decoration: none;
+}
+
+/* Whiteboard */
+
+#whiteboard {
+    height: 100vh;
+    position: relative;
+}
+
+#whiteboard .bg-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#whiteboard .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.4);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2752451322325805) 25%, rgba(0, 0, 0, 0.38728995015975143) 39%);
+}
+
+#whiteboard .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#whiteboard .title {
+    font-size: 54px;
+    line-height: 1.1;
+    margin-bottom: 32px;
+}
+
+#whiteboard .desc {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.1;
+    margin-bottom: 48px;
+}
+
+#whiteboard .btn {
+    padding: 5px 15px;
+    margin-bottom: 48px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--clr-white);
+    background-color: var(--clr-green);
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+#whiteboard .btn:hover {
+    background-color: initial;
+    border: 3px solid var(--clr-white);
+}
+
+#whiteboard .fa-solid {
+    margin-left: 5px;
+    padding: 3px;
+    border-radius: 50%;
+    font-size: 12px;
+    color: var(--clr-black);
+    background-color: var(--clr-white);
+}
