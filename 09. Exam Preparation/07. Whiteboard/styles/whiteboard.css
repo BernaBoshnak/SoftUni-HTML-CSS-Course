@@ -1,1 +1,25 @@
 @import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+:root {
+    --clr-black: #20252d;
+    --clr-green: #00d08e;
+    --clr-green-bg: #5aaa91;
+    --clr-white: #fff;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    color: var(--clr-white);
+    background-color: var(--clr-white);
+    padding: 0 4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 700;
+}
