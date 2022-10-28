@@ -11,7 +11,7 @@
 
 body {
     font-family: 'PT Sans', sans-serif;
-    color: var(--clr-white);
+    color: var(--clr-black);
     background-color: var(--clr-white);
     padding: 0 4rem;
 }
@@ -85,6 +85,7 @@ h5 {
     font-size: 54px;
     line-height: 1.1;
     margin-bottom: 32px;
+    color: var(--clr-white);
 }
 
 #whiteboard .desc {
@@ -92,11 +93,12 @@ h5 {
     font-weight: 300;
     line-height: 1.1;
     margin-bottom: 48px;
+    color: var(--clr-white);
 }
 
 #whiteboard .btn {
     padding: 5px 15px;
-    margin-bottom: 48px;
+    margin-bottom: 38px;
     border: none;
     border-radius: 5px;
     font-size: 15px;
