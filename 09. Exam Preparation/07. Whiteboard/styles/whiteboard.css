@@ -175,7 +175,6 @@ h5 {
 
 .feature-section .feature-img {
     width: 100%;
-    /* height: 380px; */
     height: 100%;
     object-fit: cover;
 }
@@ -207,4 +206,30 @@ h5 {
 
 .sec .title {
     margin-bottom: 30px;
+}
+
+/* Questions */
+
+#questions {
+    text-align: center;
+    background-color: var(--clr-green-bg);
+}
+
+#questions .title{
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+
+#questions .questions__grid {
+    margin-bottom: 40px;
+}
+
+#questions .question__title {
+    font-size: 20px;
+}
+
+#questions .link {
+    color: var(--clr-black);
+    font-weight: bold;
+    text-decoration: none;
 }
