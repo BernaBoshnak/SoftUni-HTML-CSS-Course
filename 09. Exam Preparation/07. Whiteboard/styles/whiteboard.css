@@ -123,3 +123,49 @@ h5 {
     color: var(--clr-black);
     background-color: var(--clr-white);
 }
+
+/* Hustle section */
+
+.feature-section {
+    display: flex;
+    overflow: hidden;
+}
+
+.feature-section .content,
+.feature-section .feature {
+    flex-basis: 50%;
+}
+
+.feature-section .content {
+    padding: 40px 60px;
+}
+
+.feature-section .title {
+    margin-bottom: 10px;
+}
+
+.feature-section .desc {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.item {
+    line-height: 1.8;
+}
+
+.item i {
+    color: var(--clr-green);
+    margin-right: 15px;
+}
+
+.feature-section .feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-section .feature-img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+}
