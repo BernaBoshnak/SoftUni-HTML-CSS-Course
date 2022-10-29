@@ -3,3 +3,70 @@
 body {
     font-family: Helvetica, sans-serif;
 }
+
+#enterprise {
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: rgb(246, 241, 241);
+}
+
+.enterprise {
+    display: flex;
+}
+
+.content {
+    padding: 80px 40px;
+}
+
+.content .sub-title {
+    font-size: 13px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.content .title {
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.content .text {
+    color: rgb(114, 114, 114);
+    margin-bottom: 30px;
+}
+
+.content,
+.hand-img {
+    flex-basis: 50%;
+    overflow: hidden;
+}
+
+.buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.buttons .btn {
+    padding: 8px 16px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.buttons .btn:first-of-type {
+    color: white;
+    background-color: rgb(157, 53, 242);
+    border: none;
+}
+
+.hand-img {
+    max-width: 100%;
+    padding: 60px 60px 0;
+}
+
+.hand-img .img {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
