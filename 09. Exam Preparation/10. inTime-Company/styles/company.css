@@ -136,3 +136,23 @@ body {
     color: var(--clr-start-btn);
     background-color: var(--clr-white);
 }
+
+/* Welcome section */
+
+#welcome {
+    padding: 2rem 6rem;
+    text-align: center;
+}
+
+#welcome .title {
+    font-weight: 300;
+}
+
+#welcome .divider {
+    background-color: var(--clr-divider);
+    border: 1px solid var(--clr-divider);
+}
+
+#welcome .desc {
+    margin-bottom: 30px;
+}
