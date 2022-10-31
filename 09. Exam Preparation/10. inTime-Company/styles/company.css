@@ -216,3 +216,48 @@ body {
 #services .btn {
     border-radius: 5px;
 }
+
+/* Search section */
+
+#search .content {
+    padding: 1.5rem 0;
+    text-align: center;
+    color: var(--clr-white);
+    background-color: var(--clr-search);
+}
+
+#search .divider {
+    background-color: var(--clr-white);
+    border: 1px solid var(--clr-white);
+}
+
+#search .desc {
+    margin-bottom: 20px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+input[type=text] {
+    padding: 3px 12px;
+    width: 350px;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--clr-text);
+}
+
+input[type=submit] {
+    padding: 3px 12px;
+    width: 130px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    color: var(--clr-white);
+    background-color: var(--clr-subsc-btn);
+    text-transform: uppercase;
+    cursor: pointer;
+}
