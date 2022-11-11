@@ -1,0 +1,136 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+:root {
+    --clr-green: #86d862;
+    --clr-grey: #e0e0df;
+    --clr-blue: #05a2d3;
+    --clr-bg: #f6f7f8;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section {
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 35px 8px rgb(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-img {
+    max-width: 100%;
+    max-height: 100%;
+    height: 562px;
+    filter: brightness(0.7);
+    object-fit: fill;
+}
+
+.section .info,
+.section .calculator {
+    flex-basis: 50%;
+}
+
+.info {
+    text-align: center;
+    padding: 4rem 6rem;
+    background-color: var(--clr-bg);
+}
+
+.info .title {
+    margin-bottom: 30px;
+}
+
+.form .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+input[type=submit] {
+    padding: 5px 16px;
+    width: 130px;
+    font-size: 12px;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.standart {
+    background-color: var(--clr-green);
+}
+
+.metric {
+    background-color: var(--clr-grey);
+}
+
+.form .title {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#gender {
+    margin-right: 20px;
+}
+
+.gender-info {
+    display: flex;
+}
+
+#gender,
+#years {
+    padding: 2px 2px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    font-size: 12px;
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+#pounds {
+    width: 100%;
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+.height-info {
+    display: flex;
+    gap: 10px;
+}
+
+#feet,
+#inches {
+    padding: 2px 2px;
+    width: 220px;
+    font-size: 12px;
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+.calc {
+    width: 100% !important;
+    margin-top: 30px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 20px !important;
+    text-align: center;
+    color: white;
+    background-color: var(--clr-blue);
+}
