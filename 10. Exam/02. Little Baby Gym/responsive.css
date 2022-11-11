@@ -1,0 +1,60 @@
+@media screen and (max-width:600px) {
+
+    .site-navigation {
+        display: none;
+    }
+
+    .site-main {
+        margin: inherit;
+    }
+
+    .site-logos-container {
+        min-width: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .site-information-text {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .entry-description {
+        width: inherit;
+    }
+
+    .site-information-image {
+        display: none;
+    }
+
+    .site-form {
+        margin-top: inherit;
+    }
+
+    .site-form-container .entry-title {
+        font-size: 1rem;
+    }
+
+    .site-form form>p {
+        flex-direction: column;
+    }
+
+    .site-form input {
+        padding: 0.8rem 8rem;
+    }
+
+    .site-form button {
+        margin-right: auto;
+    }
+
+    .site-posts {
+        flex-direction: column;
+        padding: 0 4rem;
+    }
+
+    .site-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
