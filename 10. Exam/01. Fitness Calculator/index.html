@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness Calculator</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="calculator">
+        <img
+          src="./image/calculator.png"
+          alt="Fitness image"
+          class="calculator-img"
+        />
+      </div>
+
+      <div class="info">
+        <h1 class="title">FITNESS CALCULATOR</h1>
+
+        <form class="form">
+          <div class="buttons">
+            <input class="standart" type="submit" value="Standart units (US)" />
+            <input class="metric" type="submit" value="Metric units" />
+          </div>
+
+          <div class="gender">
+            <h2 class="title">Gender</h2>
+
+            <div class="gender-info">
+              <select id="gender" name="gender">
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="other">Other</option>
+              </select>
+
+              <input
+                type="text"
+                id="years"
+                name="years"
+                placeholder="Years..."
+              />
+            </div>
+          </div>
+
+          <div class="weight">
+            <h2 class="title">Weight</h2>
+
+            <input
+              type="text"
+              id="pounds"
+              name="pounds"
+              placeholder="Pounds..."
+            />
+          </div>
+
+          <div class="height">
+            <h2 class="title">Height</h2>
+
+            <div class="height-info">
+              <input type="text" id="feet" name="feet" placeholder="Feet..." />
+
+              <input
+                type="text"
+                id="inches"
+                name="inches"
+                placeholder="Inches..."
+              />
+            </div>
+          </div>
+
+          <input class="calc" type="submit" value="Calculate" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
