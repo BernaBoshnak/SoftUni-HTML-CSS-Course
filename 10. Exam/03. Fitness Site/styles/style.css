@@ -1,0 +1,48 @@
+@import url(reset.css);
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif');
+
+/* Resolution 1536 x 502 */
+
+:root {
+    --clr-primary: #d01919;
+    --clr-white: #fff;
+    --clr-grey: #efefef;
+    --clr-grey-text: #b3b3c1;
+    --clr-text: #262b2f;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    color: var(--clr-text);
+}
+
+/* Header */
+
+.header {
+    position: sticky;
+    display: flex;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    justify-content: space-between;
+    padding: 0.5rem 4rem;
+    color: var(--clr-white);
+    background-color: var(--clr-primary);
+}
+
+.mobile,
+.adress {
+    display: flex;
+    align-items: center;
+}
+
+.fa-regular,
+.fa-solid {
+    margin-right: 5px;
+}
+
+.icons a {
+    color: var(--clr-white);
+    margin-right: 5px;
+}
