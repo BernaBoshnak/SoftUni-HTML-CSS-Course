@@ -1,6 +1,6 @@
 @import url(reset.css);
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
-@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&display=swap');
 
 /* Resolution 1536 x 502 */
 
@@ -15,6 +15,15 @@
 body {
     font-family: 'PT Sans', sans-serif;
     color: var(--clr-text);
+}
+
+.divider {
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: var(--clr-primary);
+    border: 1px solid var(--clr-primary);
 }
 
 /* Header */
@@ -123,4 +132,85 @@ body {
 .btn:hover {
     color: var(--clr-primary);
     background-color: var(--clr-white);
+}
+
+/* Welcome and Coaches section */
+
+#welcome,
+#coaches {
+    padding: 1rem 6rem;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.welcome,
+.coaches {
+    display: flex;
+    gap: 50px;
+}
+
+.card {
+    border-radius: 10px;
+    flex-basis: 33.333333%;
+    overflow: hidden;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.welcome .welcome-img {
+    max-height: 100%;
+    max-width: 100%;
+    width: 16%;
+    object-fit: cover;
+}
+
+#welcome .content,
+#coaches .content {
+    text-align: center;
+}
+
+#welcome .content .title {
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: var(--clr-primary);
+}
+
+#welcome .content .desc {
+    font-size: 17px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+#coaches {
+    background-color: var(--clr-grey);
+}
+
+#coaches .content {
+    padding: 0.5rem 4rem;
+}
+
+#coaches .content .title {
+    font-size: 20px;
+}
+
+#coaches .content .sub-title {
+    margin-bottom: 10px;
+    color: var(--clr-primary);
+}
+
+#coaches .content .desc {
+    color: var(--clr-grey-text);
+}
+
+.coaches-img {
+    border-radius: 5px;
 }
