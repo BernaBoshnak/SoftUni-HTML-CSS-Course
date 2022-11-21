@@ -18,6 +18,12 @@ body {
     overflow: hidden;
 }
 
+#photo,
+#feature,
+#images {
+    padding: 40px 0;
+}
+
 /* Header */
 
 .hero-img,
@@ -124,4 +130,32 @@ a {
 
 #feature .content {
     padding: 100px 80px;
+}
+
+/* Images section */
+
+#images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fi,
+.li {
+    width: 25%;
+    height: 50%;
+}
+
+.fi {
+    margin-right: -140px;
+}
+
+.si {
+    z-index: 1;
+    height: 60%;
+    width: 30%;
+}
+
+.li {
+    margin-left: -140px;
 }
