@@ -119,3 +119,9 @@ a {
     height: 550px;
     object-fit: fill;
 }
+
+/* Feature section */
+
+#feature .content {
+    padding: 100px 80px;
+}
