@@ -12,6 +12,12 @@ body {
     padding: 2rem 2rem;
 }
 
+.fill {
+    background-color: var(--clr-bg);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
 /* Header */
 
 .hero-img,
@@ -73,4 +79,34 @@ body {
     border: none;
     border-left: 2px solid grey;
     height: 60px;
+}
+
+/* Photo section */
+
+.hr-line::before {
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 130px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: grey;
+}
+
+.hr-line {
+    position: relative;
+    margin: 50px auto;
+    text-align: center;
+}
+
+a {
+    color: var(--clr-white);
+    background-color: grey;
+    padding: 5px 8px;
+    margin-right: 15px;
+}
+
+#photo .info {
+    flex-direction: row-reverse;
 }
