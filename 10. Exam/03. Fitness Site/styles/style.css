@@ -151,6 +151,7 @@ body {
 .coaches {
     display: flex;
     gap: 50px;
+    padding-bottom: 40px;
 }
 
 .card {
@@ -219,7 +220,6 @@ body {
 
 .footer {
     text-align: center;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding: 0.5rem 0;
     background-color: var(--clr-primary);
 }
