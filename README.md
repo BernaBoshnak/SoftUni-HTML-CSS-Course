@@ -24,3 +24,9 @@ Basic knowledge of web development, web browsers, HTML/CSS/DOM development tools
 - Position & Grid
 - Flexbox
 - Media Queries
+
+<hr>
+
+### :briefcase: Technologies used
+
+[![Technologies](https://skills.thijs.gg/icons?i=html,css)](https://skills.thijs.gg)
